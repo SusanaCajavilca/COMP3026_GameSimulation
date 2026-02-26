@@ -48,6 +48,9 @@ public class PaddleController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ball"))
         {
+            // adding this line to have the effect sound on the left Paddle 
+            AudioManager.Instance.PlayPaddleHit();
+
             float paddleCenterY = transform.position.y;
             float ballY = collision.transform.position.y;
 

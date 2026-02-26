@@ -47,4 +47,20 @@ public class AIPaddleController : MonoBehaviour
 
 
     }
+
+    // adding this function to have the effect sound on the right Paddle (AI oponent)
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ball"))
+
+
+        {
+            AudioManager.Instance.PlayPaddleHit();
+
+          
+        }
+    }
+
+
+
 }

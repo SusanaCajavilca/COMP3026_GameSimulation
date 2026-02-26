@@ -7,11 +7,11 @@ The QuestLog is submitted in **three sequential phases**, following the Gates, E
 
 ## Submissions Overview
 
-| Submission | Content Description                        | XP Points | Submission Date | Demo Checked |
+| Submission | Content Description                        | XP Points | Submission Date | Graded |
 |------------|--------------------------------------------|-----------|----------------|--------------|
-| 1          | Gates 1–3: Paddle & Input, Ball & Physics, Scoreboard | 30        | 02-11     | MM-DD   |
-| 2          | Expansions: Curve Ball, AI Opponent       | 30        | 02-16     | MM-DD   |
-| 3          | Meta Quests: Audio Manager, Main Menu, Particle Effects | 40        | MM-DD     | MM-DD   |
+| 1          | Gates 1–3: Paddle & Input, Ball & Physics, Scoreboard | 30        | 02-11     | 02-13   |
+| 2          | Expansions: Curve Ball, AI Opponent       | 30        | 02-16     | 02-25   |
+| 3          | Meta Quests: Audio Manager, Main Menu, Particle Effects | 40        | 02-25     | MM-DD   |
 
 
 

@@ -47,6 +47,7 @@ public class PaddleController_Right : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ball"))
         {
+            AudioManager.Instance.PlayPaddleHit();
             float paddleCenterY = transform.position.y;
             float ballY = collision.transform.position.y;
 
